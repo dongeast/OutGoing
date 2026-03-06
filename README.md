@@ -1,2 +1,1 @@
-# OutGoing
-出海项目
+creator;generator;
