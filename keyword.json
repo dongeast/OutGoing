@@ -1,9 +1,16 @@
-{"list":[
-  {
-    "text": "creator",
-  },
-  {
-    "text": "generator",
-  }
-]
+{
+    "keywords": [
+        {
+            "name": "Google",
+            "url": "http://www.google.com"
+        },
+        {
+            "name": "Baidu",
+            "url": "http://www.baidu.com"
+        },
+        {
+            "name": "SoSo",
+            "url": "http://www.SoSo.com"
+        }
+    ]
 }
