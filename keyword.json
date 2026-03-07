@@ -1,4 +1,7 @@
 [
-  creator,
-  generator
+  {
+    "text": "creator"
+  },
+  {
+    "text": "generator"
 ]
