@@ -1,16 +1,13 @@
 {
     "keywords": [
         {
-            "name": "Google",
-            "url": "http://www.google.com"
+            "url": "https://trends.google.com/trends/explore?q=creator&date=today%201-m&geo=US&legacy&hl=zh-CN"
         },
         {
-            "name": "Baidu",
-            "url": "http://www.baidu.com"
+            "url": "https://trends.google.com/trends/explore?q=generator&date=today%201-m&geo=US&legacy&hl=zh-CN"
         },
         {
-            "name": "SoSo",
-            "url": "http://www.SoSo.com"
+            "url": "https://trends.google.com/trends/explore?q=maker&date=today%201-m&geo=US&legacy&hl=zh-CN"
         }
     ]
 }
