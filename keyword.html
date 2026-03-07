@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冰球球队数据表格 | Hockey Hub</title>
+    <!-- 简单的样式美化，让表格更易读 -->
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 20px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        /* 表格样式 */
+        table {
+            width: 80%;
+            border-collapse: collapse; /* 合并边框 */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        /* 表头单元格样式 */
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        /* 普通单元格样式 */
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        /* 行悬停效果 */
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        /* 强调行样式 */
+        .highlight {
+            background-color: #e8f4fd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hockey Hub - 2025 冰球联赛球队数据</h1>
+    
+    <!-- 核心表格 -->
+    <table>
+        <!-- 表头行 -->
+        <tr>
+            <th>球队名称</th>
+            <th>所属赛区</th>
+            <th>胜场</th>
+            <th>负场</th>
+            <th>积分</th>
+        </tr>
+        <!-- 数据行1 -->
+        <tr>
+            <td>波士顿棕熊</td>
+            <td>东部赛区</td>
+            <td>42</td>
+            <td>18</td>
+            <td>94</td>
+        </tr>
+        <!-- 数据行2（高亮） -->
+        <tr class="highlight">
+            <td>多伦多枫叶</td>
+            <td>东部赛区</td>
+            <td>38</td>
+            <td>22</td>
+            <td>86</td>
+        </tr>
+        <!-- 数据行3 -->
+        <tr>
+            <td>洛杉矶国王</td>
+            <td>西部赛区</td>
+            <td>35</td>
+            <td>25</td>
+            <td>78</td>
+        </tr>
+        <!-- 数据行4（单元格合并示例：西部赛区合计） -->
+        <tr>
+            <td colspan="2"><strong>西部赛区合计</strong></td>
+            <td>128</td>
+            <td>92</td>
+            <td>285</td>
+        </tr>
+    </table>
+</body>
+</html>
